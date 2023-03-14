@@ -23,7 +23,7 @@ variable "docker_hub_password" {
   sensitive = true
 }
 
-variable "docker_hub_repo_name" {
+variable "docker_hub_image_name" {
   default   = ""
   sensitive = true
 }

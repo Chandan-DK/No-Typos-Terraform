@@ -74,8 +74,8 @@ resource "aws_codebuild_project" "game_codebuild_project" {
     }
 
     environment_variable {
-      name  = "DOCKER_HUB_REPO_NAME"
-      value = var.docker_hub_repo_name
+      name  = "DOCKER_HUB_IMAGE_NAME"
+      value = var.docker_hub_image_name
       type  = "PLAINTEXT"
     }
   }
